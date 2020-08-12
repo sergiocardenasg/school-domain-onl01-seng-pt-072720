@@ -12,7 +12,7 @@ class School
     @grade << @name
   end
 
-  def grade(roster.keys)
+  def grade(roster)
     roster.values
   end
 
