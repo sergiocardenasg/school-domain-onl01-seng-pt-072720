@@ -12,8 +12,8 @@ class School
     @roster[grade.collect {|name| @grade << @name}
   end
 
-  def grade(roster)
-    roster.values
+  def grade(student_grade)
+    roster[grade]
   end
 
   def sort(roster)
