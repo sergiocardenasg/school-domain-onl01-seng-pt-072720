@@ -1,8 +1,9 @@
 # code here!
 class School
+  attr_accessor
 
   def initialize(roster)
-    @roster = roster
+    @roster = []
   end
 
 end
