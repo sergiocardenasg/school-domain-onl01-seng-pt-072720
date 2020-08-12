@@ -16,6 +16,6 @@ class School
     self.grade
   end
 
-  
+
 
 end
