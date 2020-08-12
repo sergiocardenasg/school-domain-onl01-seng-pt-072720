@@ -12,4 +12,10 @@ class School
     @roster[@grade] << @name
   end
 
+  def grade(grade)
+    self.grade
+  end
+
+  
+
 end
