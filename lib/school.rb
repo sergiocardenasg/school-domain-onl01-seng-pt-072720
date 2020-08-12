@@ -2,8 +2,10 @@
 class School
   attr_accessor
 
+  ROSTER = []
+
   def initialize(roster)
-    @roster = []
+    @roster = ROSTER
   end
 
 end
