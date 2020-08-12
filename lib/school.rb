@@ -8,7 +8,7 @@ class School
   end
 
   def add_student(name, grade)
-    @roster.keys = @grade
+    @roster[key] = @grade
     @grade << @name
   end
 
